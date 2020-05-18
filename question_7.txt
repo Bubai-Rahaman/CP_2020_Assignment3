@@ -1,0 +1,5 @@
+ Show that FFT is an O(n*(log_2)(n)) algorithm.
+
+:- In FFT of n=2^i numbers we devided the sum into combination of even and odd term each contain n/2 numbers. By further doing these process we have at the end "log_2(n)" number of combinations. Each combinations takes order "n" operation.
+
+So, the whole algorithm is of order (n*(log_2)(n)).
